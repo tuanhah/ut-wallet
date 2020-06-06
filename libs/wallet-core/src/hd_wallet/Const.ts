@@ -1,0 +1,16 @@
+export const userId = 1;
+export const indexOfHotWallet = 0;
+export const algorithm = 'aes-192-cbc';
+export const iv = Buffer.alloc(16, 0);
+export const UNSIGNED = 'unsigned';
+export const kmsId = 0;
+export const pass = 'amanpuri';
+export const SEED_REQUESTED = 'seed_requested';
+export const PREFIX_ERC20 = 'erc20.';
+export const PREFIX_OMNI = 'omni.';
+export const EOS_TOKEN = 'eos.EOS';
+export const string_length = 8;
+export const TYPE_NORMAL = 'normal';
+export const NOT_HD = 'NOT_HD';
+export const ADA_RECEIPT_ADDRESS_INDEX = 4294967295;
+export const TMP_ADDRESS = 'TMP_ADDRESS';

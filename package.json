@@ -1,0 +1,59 @@
+{
+  "name": "@sotatek/s-wallet-btc",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo 'TODO: Implement tests'",
+    "lint": "tslint -c tslint.json 'libs/**/*.ts' 'bin/**/*.ts'",
+    "fix": "npm run lint -- --fix",
+    "build": "rm -rf dist/bin dist/libs && tsc",
+    "release": "release-it -n",
+    "release-minor": "release-it minor -n",
+    "release-major": "release-it major -n"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/assert": "1.4.1",
+    "@types/chai": "4.1.7",
+    "@types/mocha": "5.2.5",
+    "@types/node": "10.12.18",
+    "chai": "4.2.0",
+    "eslint": "5.9.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-config-populist": "4.1.0",
+    "eslint-config-prettier": "3.3.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-prettier": "3.0.0",
+    "eslint-plugin-react": "7.11.1",
+    "husky": "1.2.0",
+    "mocha": "5.2.0",
+    "node": "11.6.0",
+    "nyc": "13.3.0",
+    "prettier": "1.15.3",
+    "ts-node": "7.0.1",
+    "tslint": "5.11.0",
+    "tslint-config-prettier": "1.17.0",
+    "tslint-eslint-rules": "5.4.0",
+    "tslint-plugin-prettier": "2.0.1",
+    "typescript": "3.2.2"
+  },
+  "dependencies": {
+    "@types/http-proxy": "1.17.0",
+    "bchaddrjs": "^0.4.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sotatek-dev/s-wallet-btc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sotatek-dev/s-wallet-btc/issues"
+  },
+  "homepage": "https://github.com/sotatek-dev/s-wallet-btc#readme"
+}

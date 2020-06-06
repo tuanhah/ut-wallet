@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "search.exclude": {
+      "**/.git": true,
+      "**/dist": true
+    }
+  }
+}

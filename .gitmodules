@@ -1,0 +1,24 @@
+[submodule "libs/sota-common"]
+	path = libs/sota-common
+	url = git@github.com:sotatek-dev/scc-common.git
+[submodule "libs/sota-btc"]
+	path = libs/sota-btc
+	url = git@github.com:sotatek-dev/s-wallet-btc-base.git
+[submodule "libs/sota-eos"]
+	path = libs/sota-eos
+	url = git@github.com:sotatek-dev/s-wallet-eos-base.git
+[submodule "libs/sota-ltc"]
+	path = libs/sota-ltc
+	url = git@github.com:sotatek-dev/s-wallet-ltc-base.git
+[submodule "libs/sota-bch"]
+	path = libs/sota-bch
+	url = git@github.com:sotatek-dev/s-wallet-bch-base.git
+[submodule "libs/sota-eth"]
+	path = libs/sota-eth
+	url = git@github.com:sotatek-dev/s-wallet-eth-base.git
+[submodule "libs/sota-xrp"]
+	path = libs/sota-xrp
+	url = git@github.com:sotatek-dev/s-wallet-xrp-base.git
+[submodule "libs/sota-ada"]
+	path = libs/sota-ada
+	url = git@github.com:sotatek-dev/s-wallet-ada-base.git
